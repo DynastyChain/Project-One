@@ -17,14 +17,14 @@
  
   Currently, the game is compatible with Safari, Chrome, and Opera.
  
-##FUTURE ADDITIONS
+##FUTURE ADDITIONS:
 
   1. Add difficulty settings which will change the level design as well as the speed of moving obstacles.
   2. Add more levels and more bosses.
   3. Overhaul the story structure to be slightly less ridiculous.
   
 
-##SPECIAL THANKS
+##SPECIAL THANKS:
  
   Spencer Lewis for level 3 boss character.
   
