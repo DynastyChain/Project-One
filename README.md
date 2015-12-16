@@ -10,11 +10,13 @@
 
 ##GAME STRUCTURE:
 
-   The game uses the 'onMouseOver' method using JQuery which hides all game elements when the cursor touches them, 
-    forcing the player to start the level over.
-    
-   Currently, the game is compatible with Safari, Chrome, and Opera.
-    
+  The game uses the 'onMouseOver' method using JQuery which hides all game elements when the cursor touches them, 
+  forcing the player to start the level over.
+ 
+  Animations and stylings use only native css, without any external libraries.
+ 
+  Currently, the game is compatible with Safari, Chrome, and Opera.
+ 
 ##FUTURE ADDITIONS
 
   1. Add difficulty settings which will change the level design as well as the speed of moving obstacles.
