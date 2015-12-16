@@ -1,0 +1,110 @@
+body {
+  background-image: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
+  background-size: cover;
+
+}
+div {
+  background-color: black;
+  width: 75px;
+  height: 350px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+}
+main {
+  width: 1300px;
+  height: 700px;
+}
+aside {
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  text-align: center;
+}
+#boss {
+  border-radius: 30px;
+}
+#one {
+  position: relative;
+  float: left;
+  margin-left: 200px;
+  height: 575px;
+
+}
+#spin1 {
+  position: relative;
+  float: left;
+  height: 20px;
+  width: 300px;
+  background-color: red;
+  margin-left: 50px;
+  margin-top: 200px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+#spin2 {
+  position: relative;
+  float: left;
+  height: 20px;
+  width: 400px;
+  background-color: red;
+  margin-top: 500px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: .75s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+}
+#two {
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  margin-top: 80px;
+  height: 75px;
+  width: 300px;
+  -webkit-animation-duration: 1s;
+
+}
+#three {
+  position: relative;
+  float: left;
+  left: 300px;
+}
+
+#nextLvl {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+  position: relative;
+  float: left;
+  margin-left: 200px;
+}
+#help {
+  position: absolute;
+  bottom: 35px;
+  left: 75px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+}
+#reset {
+  position: absolute;
+  margin-top: 700px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+}
+@-webkit-keyframes spin {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}

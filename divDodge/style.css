@@ -1,0 +1,117 @@
+body {
+    background-image: url("http://www.twitterevolutions.com/bgs/sunshine-twitter-background.jpg");
+    background-size: cover;
+}
+main {
+    width: 1400px;
+    height: 700px;
+    }
+aside {
+    position: absolute;
+    max-width: 400px;
+    z-index: 2;
+    background-color: black;
+    border-radius: 30px;
+}
+aside h2{
+color: white;
+}
+#boss {
+    border-radius: 30px;
+
+}
+#top {
+    width: 1300px;
+    height: 50px;
+    margin-left: 200px;
+    top: 400px;
+    background-color: black;
+    position: absolute;
+}
+#middle {
+    width: 1300px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    background-color: black;
+    margin-left: -10px;
+}
+.wave1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 15px;
+    position: absolute;
+    -webkit-animation-name: redSquare;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+.wave2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 15px;
+    position: absolute;
+    -webkit-animation-name: yellowSquare;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+.wave3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 15px;
+    position: absolute;
+    -webkit-animation-name: blueSquare;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+#nextLvl {
+    margin-top: 40px;
+    height: 60px;
+    width: 60px;
+    background: -webkit-linear-gradient(green, lightgreen, white);
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+}
+.reset {
+    height: 60px;
+    width: 60px;
+    background: -webkit-linear-gradient(green, lightgreen, white);
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.help {
+    height: 60px;
+    width: 60px;
+    background: -webkit-linear-gradient(green, lightgreen, white);
+    border: 1px solid white;
+    border-radius: 30px;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes redSquare {
+    0%   { left:0px; top:0px;}
+    50%  { left: 600px; top:0;}
+    100% { left:0px; top:0px;}
+}
+@-webkit-keyframes yellowSquare {
+    0%   { left:0px; top:125px;}
+    50%  { left: 1000px; top:125;}
+    100% { left:0px; top:125px;}
+}
+@-webkit-keyframes blueSquare {
+    0%   { left:0px; top:285px;}
+    50%  { left: 1000px; top:285px;}
+    100% { left:0px; top:285px;}
+}
+

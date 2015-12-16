@@ -1,0 +1,282 @@
+body {
+  background: url("http://www.upadeal.com/images/space.jpg");
+}
+main {
+  height: 760px;
+  width: 1400px;
+}
+div {
+  border-radius: 150px;
+}
+section {
+  background-image: url('https://image.freepik.com/free-icon/cannon_318-10142.jpg');
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 30px;
+
+}
+.wave1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  background-image: url("http://www.clipartlord.com/wp-content/uploads/2014/09/fireball2.png");
+  background-size: cover;
+  position: relative;
+  left: 900px;
+  z-index: 3;
+  -webkit-transform: rotate(50deg);
+  -webkit-animation-name: fireOne;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.wave2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  background-image: url("http://www.clipartlord.com/wp-content/uploads/2014/09/fireball2.png");
+  background-size: cover;
+  position: relative;
+  left: 1100px;
+  z-index: 3;
+  -webkit-transform: rotate(10deg);
+  -webkit-animation-name: fireTwo;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+#trog {
+  position: absolute;
+  width: 500px;
+  bottom: 70px;
+  left: 830px;
+  float: right;
+  z-index: 4;
+
+}
+#fire {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 6;
+
+}
+#cannon1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  border-radius: 50px;
+  left: 400px;
+  top: 100px;
+  z-index: 2;
+}
+#cannon2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  border-radius: 50px;
+  left: 400px;
+  top: 300px;
+  z-index: 2;
+}
+#cannon3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  border-radius: 50px;
+  left: 400px;
+  top: 500px;
+  z-index: 2;
+}
+article {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 1100px;
+  top: 400px;
+  z-index: 1;
+  border-radius: 25px;
+  background-image: url("https://goesling.files.wordpress.com/2012/02/bomb-44.png");
+  background-size: cover;
+}
+#shot1 {
+  width: 50px;
+  height: 50px;
+  left: 1090px;
+  top: 350px;
+  z-index: 1;
+  border-radius: 25px;
+  background-color: black;
+}
+#shot2 {
+  width: 50px;
+  height: 50px;
+  left: 1090px;
+  top: 300px;
+  z-index: 1;
+  border-radius: 25px;
+  background-color: black;
+}
+#shot3 {
+ width: 50px;
+  height: 50px;
+  left: 1040px;
+  top: 190px;
+  z-index: 1;
+  border-radius: 25px;
+  background-color: black;
+}
+.reload {
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+  position: absolute;
+  top: 300px;
+}
+.refresh {
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+}
+.detonate {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(red, white);
+}
+#finish {
+  opacity: 0;
+  z-index: 9;
+  left: 725px;
+  position: absolute;
+  text-align: center;
+}
+h1 {
+  color: white;
+  top: 620px;
+  font-size: 40px;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(black, gray);
+}
+#boss {
+  border-radius: 30px;
+}
+#playAgain {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(green, white);
+}
+.boom1 {
+  -webkit-animation-name: shotOne;
+  -webkit-animation-duration: .2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+.boom2 {
+  -webkit-animation-name: shotTwo;
+  -webkit-animation-duration: .2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+.boom3 {
+  -webkit-animation-name: shotThree;
+  -webkit-animation-duration: .2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+.rumble {
+  -webkit-animation-name: rumble;
+  -webkit-animation-duration: .1s;
+  -webkit-animation-iteration-count: 20;
+  -webkit-animation-timing-function: linear;
+}
+.flash {
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: .1s;
+  -webkit-animation-iteration-count: 20;
+  -webkit-animation-timing-function: linear;
+}
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: .2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.billOne {
+  -webkit-animation-name: billOne;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.last {
+  -webkit-animation-name: last;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes fireOne {
+  0% {left: 1100px; top: 0px; opacity: 0;}
+  40% {opacity: 0;}
+  80% {opacity: 1;}
+  100% {left: 0px; top: -150px; opacity: 1;}
+}
+@-webkit-keyframes fireTwo {
+0% {left: 1100px; bottom: 200px; opacity: 0;}
+30% {opacity: 0;}
+50% {left: 400px; bottom: 100px; opacity: 1;}
+70% {opacity: 1;}
+100% {left: 200px; bottom: 0px;}
+}
+@-webkit-keyframes shotOne {
+  0% {left: 400px; top: 100px;}
+  100% {left: 1100px;top: 330px;}
+}
+@-webkit-keyframes shotTwo {
+  0% {left: 400px; top: 330px;}
+  100% {left: 1100px; top: 330px;}
+}
+@-webkit-keyframes shotThree {
+  0% {left: 400px; top: 500px;}
+  100% {left: 1040px; top: 200px;}
+}
+@-webkit-keyframes rumble {
+  0% {left: 0px; opacity: 0;}
+  25% {left: -10px; bottom: -10px; opacity: 0;}
+  50% {left: 0px; bottom: 0px; opacity: 0;}
+  100% {left: 10px; bottom: 10px; opacity: 1;}
+}
+  @-webkit-keyframes flash {
+    0% {z-index: 6; background: -webkit-linear-gradient(yellow,white,yellow);}
+    25% {z-index: 6; background: -webkit-linear-gradient(green,white,green);}
+    50% {z-index: 6; background: -webkit-linear-gradient(red,white,red);}
+    100%{z-index: 6; background: -webkit-linear-gradient(orange,white,orange);}
+  }
+  @-webkit-keyframes spin {
+    0% {-webkit-transform: scaleX(-1);}
+    100% {-webkit-transform: scaleX(1);}
+  }
+  @-webkit-keyframes billOne {
+    0% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+  @-webkit-keyframes last {
+    0% {display: none;}
+    100% {display: none;}
+  }
+}

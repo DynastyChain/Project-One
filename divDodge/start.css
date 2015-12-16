@@ -1,0 +1,26 @@
+body {
+  background-image: url("http://www.mrwallpaper.com/wallpapers/gradient-background.jpg");
+  background-size: cover;
+  text-align: center;
+}
+button {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 40px;
+  background: -webkit-linear-gradient(green, lightgreen, white);
+}
+img {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  border-radius: 30px;
+}
+h2 {
+  position: absolute;
+  max-width: 600px;
+  top: 400px;
+  left: 410px;
+}
