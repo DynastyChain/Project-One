@@ -5,8 +5,8 @@
   
 ##RULES OF DIV DODGE:
 
-  1. Navigate your mouse cursor through the level without touching any of the obstacles.
-  2. Your cursor is allowed to touch an object in motion if you remain still as it passes over the cursor.
+  - Navigate your mouse cursor through the level without touching any of the obstacles.
+  - Your cursor is allowed to touch an object in motion if you remain still as it passes over the cursor.
 
 ##GAME STRUCTURE:
 
