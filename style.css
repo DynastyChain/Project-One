@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background: url("http://orig15.deviantart.net/5902/f/2013/073/a/f/eye_of_the_sun_background_by_designstyle-d5y0mkp.png");
+  background-size: cover;
+  font-family: 'Sonsie One';
+}
+header {
+  background: -webkit-linear-gradient(black, blue);
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+div {
+  width: 150px;
+  height: 150px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+h1 {
+  color: yellow;
+}
+button {
+  margin-top: 25px;
+  width: 100px;
+  height: 50px;
+  border-radius: 45px;
+  border: 2px solid white;
+  font-size: 20px;
+  background: linear-gradient(blue, white 50%, blue);
+}
+#game2 {
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 45px;
+  border: 2px solid white;
+  font-size: 20px;
+  background: linear-gradient(blue, white 50%, blue);
+}
+#one {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#two {
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#three {
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#four {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+#five {
+  border: 2px solid white;
+}
+#six {
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+#seven {
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+
+}
+#eight {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+#nine {
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+.x {
+  background: url("http://toons.artie.com/alphabet/ralph/arg-x-50-trans.gif");
+  background-size: cover;
+}
+.o {
+  background: url("http://toons.artie.com/alphabet/ralph/arg-o-5O-tRr-a-pl0ase-ns.gif");
+  background-size: cover;
+}
