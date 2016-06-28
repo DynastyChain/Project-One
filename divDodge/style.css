@@ -1,5 +1,6 @@
 body {
-    background-image: url("http://www.twitterevolutions.com/bgs/sunshine-twitter-background.jpg");
+    background-image: url("https://i.ytimg.com/vi/F3I0wRGAkxo/maxresdefault.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 main {
@@ -35,6 +36,14 @@ color: white;
     top: 200px;
     background-color: black;
     margin-left: -10px;
+}
+#bottom {
+    width: 1300px;
+    height: 50px;
+    left: 0px;
+    position: absolute;
+    top: 550px;
+    background-color: black;
 }
 .wave1 {
     width: 100px;
@@ -75,6 +84,45 @@ color: white;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
 }
+.wave4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin-top: 15px;
+    position: absolute;
+    -webkit-animation-name: greenSquare;
+    -webkit-animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+.activator {
+    height:230px;
+    width: 100px;
+    bottom: 0px;
+    left: 50%;
+    position: absolute;
+}
+.darkSouls {
+    display: none;
+    height: 200px;
+    width: 150px;
+    left: 0px;
+    bottom: 0px;
+    background: url('http://vignette3.wikia.nocookie.net/meme/images/7/7d/YaoMingFace.jpg/revision/latest?cb=20141108223024');
+    background-size: cover;
+    margin-top: 15px;
+    position: absolute;
+    -webkit-animation-name: darkSouls;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: paused;
+    -webkit-animation-direction: alternate;
+
+}
 #nextLvl {
     margin-top: 40px;
     height: 60px;
@@ -113,5 +161,14 @@ color: white;
     0%   { left:0px; top:285px;}
     50%  { left: 1000px; top:285px;}
     100% { left:0px; top:285px;}
+}
+@-webkit-keyframes greenSquare {
+    0% {left: 0px; top: 435px;}
+    50% {left: 1200px; top: 435px;}
+    100% {left: 0px; top: 435px;}
+}
+@-webkit-keyframes darkSouls {
+    0% {left: 0px; bottom: 0px;}
+    100% {left: 1200px; bottom: 0px;}
 }
 

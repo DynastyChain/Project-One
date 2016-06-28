@@ -10,6 +10,7 @@ $(document).ready(function (){
    $('.reset').on('click', function() {
      $('div').css('display', 'block');
      $('#nextLvl').css('display', 'block');
+     $('.darkSouls').css('display', 'none');
 
    });
    $('.help').on('click', function() {
@@ -21,5 +22,9 @@ $(document).ready(function (){
    });
    $('aside').on('click', function() {
     $('aside').hide();
+   })
+   $('.activator').on('mouseover', function() {
+    $('.darkSouls').css("display", "block");
+    $('.darkSouls').css("-webkit-animation-play-state", "running");
    })
    });
